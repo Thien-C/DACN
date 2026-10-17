@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 24b08a92529a8534583322d74d9f2a53, type: 3}
+  m_Name: Bow_1
+  m_EditorClassIdentifier: 
+  <AnimationController>k__BackingField: {fileID: 9100000, guid: 2dddaa45e21accf4dbbfa252b5b61083, type: 2}
+  <NumberOfAttacks>k__BackingField: 1
+  <ComponentData>k__BackingField:
+  - rid: 5964506942276894720
+  - rid: 5964506942276894721
+  - rid: 5964506942276894735
+  - rid: 5964506942276894722
+  references:
+    version: 2
+    RefIds:
+    - rid: 5964506942276894720
+      type: {class: WeaponSpriteData, ns: Hung.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 0
+            <Sprites>k__BackingField:
+            - {fileID: 1968671690, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+            - {fileID: -15810015, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+          - <Phase>k__BackingField: 1
+            <Sprites>k__BackingField:
+            - {fileID: -15810015, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 174350561, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+            - {fileID: 463635277, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+            - {fileID: 1380487674, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+            - {fileID: 460716412, guid: 2a378a109a845e14bbddb82b53f2e269, type: 3}
+    - rid: 5964506942276894721
+      type: {class: InputHoldData, ns: Hung.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: InputHoldData
+    - rid: 5964506942276894722
+      type: {class: MovementData, ns: Hung.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 0, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 5964506942276894735
+      type: {class: ProjectileSpawnerData, ns: Hung.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ProjectileSpawnerData
+        repeatData: 0
+        attackData:
+        - name: Attack 1
+          <SpawnInfos>k__BackingField:
+          - <Offset>k__BackingField: {x: 1.24, y: 0}
+            <Direction>k__BackingField: {x: 1, y: 0}
+            <ProjectilePrefab>k__BackingField: {fileID: 8877840337874107929, guid: 1b57c3b9236769a43aa09b15303e6bde, type: 3}
+            <DamageData>k__BackingField:
+              <Amount>k__BackingField: 15
+            <KnockBackData>k__BackingField:
+              Strength: 10
+              Angle: {x: 1, y: 1}
+            <PoiseDamageData>k__BackingField:
+              <Amount>k__BackingField: 5
+            <SpriteDataPackage>k__BackingField:
+              <Sprite>k__BackingField: {fileID: 265257215, guid: 62f4906c73035d345ae131493a688890, type: 3}

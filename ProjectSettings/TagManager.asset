@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 3
+  tags:
+  - Enemy
+  - ParticleContainer
+  - Ground
+  - Trap
+  - DeathZone
+  - HitBox
+  - NPC
+  - RockHead
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - BackGround
+  - Water
+  - UI
+  - Ground
+  - Wall
+  - Damageable
+  - Dead
+  - Player
+  - Weapon
+  - Platform
+  - Enemy
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: BackGround
+    uniqueID: 2216656539
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Terrain
+    uniqueID: 549417441
+    locked: 0
+  - name: InactiveProjectile
+    uniqueID: 3545352561
+    locked: 0
+  - name: Enemy
+    uniqueID: 772955549
+    locked: 0
+  - name: Player
+    uniqueID: 136112083
+    locked: 0
+  - name: ActiveProjectile
+    uniqueID: 2254714517
+    locked: 0
+  - name: Foreground Decoration
+    uniqueID: 365013521
+    locked: 0
+  m_RenderingLayers:
+  - Default
+  - Light Layer 1
+  - Light Layer 2
+  - Light Layer 3
+  - Light Layer 4
+  - Light Layer 5
+  - Light Layer 6
+  - Light Layer 7
